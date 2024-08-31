@@ -11,5 +11,6 @@ public class JspController {
     public String main(Model model){
         model.addAttribute("data","SpringBoot打包为war文件");
         return "index";
+
     }
 }
